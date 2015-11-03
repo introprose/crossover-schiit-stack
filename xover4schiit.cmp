@@ -1,0 +1,31 @@
+Cmp-Mod V01 Created by Cvpcb (2015-05-13 BZR 5653)-product   date = Sunday, September 27, 2015 'PMt' 07:31:17 PM
+
+BeginCmp
+TimeStamp = /56086B19;
+Reference = P1;
+ValeurCmp = pcb_bnc_male;
+IdModule  = footprints:bnc_pcb;
+EndCmp
+
+BeginCmp
+TimeStamp = /56086B47;
+Reference = P2;
+ValeurCmp = pcb_bnc_male;
+IdModule  = footprints:bnc_pcb;
+EndCmp
+
+BeginCmp
+TimeStamp = /56086B74;
+Reference = P3;
+ValeurCmp = pcb_bnc_male;
+IdModule  = footprints:bnc_pcb;
+EndCmp
+
+BeginCmp
+TimeStamp = /56086B9A;
+Reference = P4;
+ValeurCmp = pcb_bnc_male;
+IdModule  = footprints:bnc_pcb;
+EndCmp
+
+EndListe

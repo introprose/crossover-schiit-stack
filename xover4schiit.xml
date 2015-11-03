@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/user/Documents/kicad/xover4schiit/xover4schiit.sch</source>
+    <date>Sunday, September 27, 2015 'PMt' 06:23:11 PM</date>
+    <tool>Eeschema (2015-05-13 BZR 5653)-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>xover4schiit.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P1">
+      <value>pcb_bnc_male</value>
+      <libsource lib="xover4schiit" part="pcb_bnc_male"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56086B19</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>pcb_bnc_male</value>
+      <libsource lib="xover4schiit" part="pcb_bnc_male"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56086B47</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>pcb_bnc_male</value>
+      <libsource lib="xover4schiit" part="pcb_bnc_male"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56086B74</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>pcb_bnc_male</value>
+      <libsource lib="xover4schiit" part="pcb_bnc_male"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56086B9A</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="xover4schiit" part="pcb_bnc_male">
+      <footprints>
+        <fp>BNC_*</fp>
+        <fp>bnc</fp>
+        <fp>bnc-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">pcb_bnc_male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="xover4schiit">
+      <uri>/Users/user/Documents/kicad/xover4schiit/xover4schiit.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="P1" pin="2"/>
+      <node ref="P2" pin="2"/>
+      <node ref="P3" pin="2"/>
+      <node ref="P4" pin="2"/>
+    </net>
+    <net code="2" name="Net-(P2-Pad1)">
+      <node ref="P4" pin="1"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="3" name="Net-(P1-Pad1)">
+      <node ref="P3" pin="1"/>
+      <node ref="P1" pin="1"/>
+    </net>
+  </nets>
+</export>
